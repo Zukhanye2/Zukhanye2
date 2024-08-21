@@ -89,5 +89,5 @@ jobs:
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           slack-token: ${{ secrets.SLACK_BOT_TOKEN }}
-          text: "CI/CD Pipeline failed. Please check the logs for more details."
+          text: "CI/CD Pipeline failed"
             
